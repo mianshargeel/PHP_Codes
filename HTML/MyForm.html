@@ -1,0 +1,63 @@
+<html>
+	<head>
+	  <title> My Form Page </title>
+	</head> 
+		<body>
+
+			<form action="somefile.php" method="post"> <!--NOTE IN METHOD WE CAN USE get or post (through post data will non visible get through get will be visibl)-->
+
+				<table>     <!-- through table we create rows and colums and with input of text and password -->
+					<tr>
+						<td> Name </td>
+						<td> <input type="text" name="username"/> </td>           <!--Note we should always NAMED evey element of input ATTRIBUTE(name) after submiting we will get all data in php file which we adressed above-->
+					</tr>
+
+					<tr>
+						<td> Password </td>	
+						<td> <input type="Password" name="password"/> </td>
+					</tr>
+
+					<tr>
+						<td> Gender </td>	
+						<td> <input type="Radio" name="Points" /> M </td>             <!--We need at one should be mark only one button M or F becouse of this we use (name attribute of input with same value) -->
+						<td> <input type="Radio" name="Points" /> F </td>
+					</tr>
+
+					<tr>
+
+						<td> Courses </td>
+						 <input type="Checkbox" name="php" /> PHP        <!--checkbox attribue using for multi selection-->
+						 <input type="Checkbox" name="java" /> JAVA 
+						 <input type="Checkbox" name="C++" /> C++ 
+						 <input type="Checkbox" name="mysql" /> MySQL </td>
+
+					</tr>
+
+					<tr>
+						<td> City </td>
+						<td> <select> <!-- we using like input another tage select for chose one choice -->
+
+							<option> ..... </option>
+							<option> Lahore </option>
+							<option> Krachi </option>
+							<option> IslamAbad </option>
+							<option> Keiv </option>
+							<option> Kharkov </option>
+
+						</select> </td>
+
+					</tr>
+
+					<tr> 
+						<td colspan="2"> <input type="Submit" value="Regiter" />  <!--to creat Submit or regiter bpttun-->
+						<input type="Reset" /> </td>  <!-- to create reset bottun -->
+
+					</tr>
+
+				</table>
+
+			</form>	
+
+		</body>
+
+</html>

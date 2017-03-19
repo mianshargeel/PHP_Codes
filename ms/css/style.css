@@ -1,0 +1,21 @@
+html,body{background:url(../images/pbg.jpg) no-repeat; background-size:cover; background-attachment:fixed;}
+*{padding:0; margin:0;}
+
+.im{width:100%; height:auto; overflow:hidden;}
+.im-inner{width:100%; height:auto; overflow:hidden;}
+.im-inner table{width:30%; height:auto; background-color:#FC0307; border-radius:10px; padding:10px 0px; position:absolute; top:0; left:0; right:0; bottom:0; margin:auto;}
+.im-inner table h1{color:#fff; letter-spacing:2px;}
+.im-inner table h3{color:#fff; text-shadow:3px -2px 18px #303f9f; letter-spacing:2px;}
+
+.im-inner input[type = "text"], .im-inner input[type = "password"]
+{width:80%; height:auto; border-radius:5px; padding:10px 0px; text-align:center; border:none; margin:5px 0px; background-color:transparent; font-size:20px; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out;}
+.im-inner input[type = "text"]:focus, .im-inner input[type = "password"]:focus{background-color:#303f9f; color:white; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out;}
+
+.im-inner input[type = "submit"]{padding:10px 20px; width:80%; color:white; font-weight:bold; font-size:20px; background-color:#303f9f;transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; margin-bottom:10px; margin-top:5px; letter-spacing:2px;}
+.im-inner input[type = "submit"]:hover{padding:10px 20px; width:80%; color:white; font-weight:bold; font-size:20px;  cursor:pointer; border: 2px solid #303f9f;transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; letter-spacing:10px;}
+
+.bills{width:100%; height:auto; overflow:hidden;}
+.bills h2{color:#000;}
+.td-clr{}
+.td-clr td{background-color:green;}
+.soft{visibility:hidden;}
